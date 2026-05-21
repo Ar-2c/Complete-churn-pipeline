@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+shap
+xgboost
+evidently
+SQLAlchemy
+psycopg2-binary
+python-dotenv
+jupyter
+ipykernel
+plotly
