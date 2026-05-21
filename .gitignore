@@ -2,7 +2,22 @@
 .venv/
 env/
 venv/
+.env
 
 # Python artifacts
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
+
+# Database files
+*.db
+*.sqlite3
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

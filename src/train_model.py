@@ -28,7 +28,7 @@ def train_best_model():
     # using class_weight='balanced' based on previous results
     final_model = RandomForestClassifier(
         n_estimators=200, 
-        max_depth=None, 
+        max_depth=10, 
         min_samples_split=5, 
         class_weight='balanced', 
         random_state=42
