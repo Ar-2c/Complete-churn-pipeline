@@ -59,7 +59,7 @@ churn_pipeline/
 │   └── modeling_experiments.ipynb      # Model experimentation and tuning
 ├── src/
 │   ├── ingest_data.py                  # Creates SQLite database from CSV
-│   ├── preprocess.py                   # Data cleaning and preprocessing
+│   ├── preproccess.py                  # Data cleaning and preprocessing
 │   ├── train_model.py                  # Model training and serialization
 │   ├── generate_predictions.py         # Prediction generation and Supabase upload
 │   └── evaluate_drift.py               # Data drift evaluation using Evidently AI
